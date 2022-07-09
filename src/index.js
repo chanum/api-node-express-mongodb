@@ -1,6 +1,7 @@
 
-import app from "./app"
-import "./database"
+import app from "./app";
+import './database';
 
-console.log("Server listen on port", 3000)
-app.listen(3000)
+app.listen(app.get("port"));
+
+console.log("Server on port", app.get('port'));

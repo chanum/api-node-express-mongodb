@@ -16,7 +16,7 @@ npm start
 npm i @babel/core @babel/core @babel/cli @babel/node @babel/preset-env nodemon -D 
 
 
-http://localhost:3000/
+http://localhost:4000/
 
 
 npm run build --> para convertir codigo a prod.
